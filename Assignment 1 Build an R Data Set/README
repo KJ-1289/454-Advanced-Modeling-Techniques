@@ -1,0 +1,17 @@
+Assignment #1: Build an RData Data Set (50 Points)
+Data: The data for this assignment will be the Spambase data set from the UCI Machine Learning
+Repository.
+https://archive.ics.uci.edu/ml/datasets/spambase
+The csv data file and the data documentation will be provided with these instructions. Students are to
+use the provided versions of the data to ensure that all students are using the same version of the data.
+Assignment Instructions:
+In model development we always need to clean and process data into a final modeling format before we
+begin building models. Our raw data can come in many formats, e.g. a query straight from the database
+into our modeling software or a delimited text file such as a tab delimited, pipe delimited, or comma
+separated text file or ‘flat file’. After we clean and process our raw data it can be advantageous to store
+the clean data in a generic format such as a delimited text file or in a format that is native to our
+modeling software. In R our native data storage object is the .RData object.
+In this assignment we will read in the csv file, process the file by adding the column names and creating
+a 50/50 train/test split, and saving the final data set as an .RData object. The deliverable for this
+assignment is a nicely written and well commented R script to be named
+build_spam_data_LastName.R.
