@@ -1,0 +1,30 @@
+Assignment #3: Computational EDA and Two-Eyed Algorithms in Binary
+Classification (100 Points)
+Data: The data for this assignment will be the Spambase data set from the UCI Machine Learning
+Repository.
+https://archive.ics.uci.edu/ml/datasets/spambase
+Students will be provided with an .RData version of the data that has been pre-split into a 50/50
+train/test split with column names that are compatible with algorithms used in this assignment. It is
+important/required that all students use the provided data set.
+Assignment Instructions:
+In this assignment we will explore R implementations of the algorithms for recursive partitioning
+algorithms, aka decision trees, (rpart), Random Forest (randomForest), Gradient Boosting Machines
+(gbm), and XGBoost (xgboost). All of these algorithms fit Breiman’s definition of a ‘two-eyed algorithm’,
+i.e. they provide data insights while also providing accurate predictions. In this assignment we are going
+to explore both eyes of these algorithms by using them as a tool for computational exploratory data
+analysis and assessing their effectiveness as predictive models within a statistical learning framework.
+Models to include:
+(1) Decision Tree with fancyRpartPlot() from rattle package.
+(2) Random Forest
+(3) GBM with distribution=’bernoulli’
+(4) GBM with distribution=’adaboost’
+(5) XGBoost with 500 boosting iterations
+(6) XGBoost with 1000 boosting iterations
+For each model we should have:
+(7) A variable importance plot for the top 10 features.
+(8) A confusion matrix table for the training sample and the testing sample. An Excel table will
+be provided to the class.
+(9) A ROC curve for the training sample with the AUC labelled on the plot.
+The document for this assignment will be a slide deck. Each model should have its own slide. After the
+individual model slides there should be a model comparison slide where we can easily compare the
+performance of the individual models against each other.
