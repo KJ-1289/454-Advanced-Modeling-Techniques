@@ -1,0 +1,3 @@
+Assignment #2: Predictive Modeling in Regression (200 Points)
+Data: The data for this assignment will be provided in a csv format from the case study ‘Two Month’s
+Salary’ by Brian Pope. The data will need to be read into R using the function read.csv().
