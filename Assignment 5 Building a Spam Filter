@@ -1,0 +1,13 @@
+Assignment #5: Building a SPAM Filter as a Production Model (200 Points)
+Data: The data for this assignment will be the Spambase data set from the UCI Machine Learning
+Repository.
+https://archive.ics.uci.edu/ml/datasets/spambase
+Students will be provided with an .RData version of the data that has been pre-split into a 50/50
+train/test split with column names that are compatible with algorithms used in this assignment. It is
+important/required that all students use the provided data set.
+Assignment Instructions:
+In this assignment we will build a SPAM filter as a production model. Typically, production models need
+to be models that are easily and reliably implemented into their production systems. For this
+application we will look at three particular models: a basic WOE binning classification, a Naïve Bayes
+model, and a logistic regression model. We will develop our models on the training data set and test
+their out-of-sample performance on a test data set. 
